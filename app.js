@@ -12,5 +12,5 @@ app.use(express.urlencoded({ extended: true }));
 routes(app);
 // Setting the server to listen at port 3000
 app.listen(PORT, HOST, function () {
-  console.log(`Server started on http://${HOST}:${PORT}`);
+  console.log(`Server started!!!`);
 });
